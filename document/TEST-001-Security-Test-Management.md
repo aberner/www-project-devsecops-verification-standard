@@ -6,19 +6,25 @@
 
 ## Summary
 
-Security Test Management is the process of planning, monitoring, and documenting security testing activities to ensure the security of a product, particularly in software development. It involves several key phases:
+Security Test Management is the process of planning, monitoring, and supervise the security testing activities to ensure the security of a product during its lifecycle. 
+
+It involves several key activities:
 
 - Requirement Analysis: Understanding the security requirements and setting clear testing objectives.
   - Ref: DSOVS-REQ-001, DSOVS-REQ-002, DSOVS-REQ-003
-- Test Planning: Defining the overall security testing strategy, scope, and resources.
-  - Including tooling and automation support 
+- Test Planning: Defining the overall security testing strategy,
+  - Defining scope
+  - Managment of resources.
+  - Tooling and automation support 
 - Test Design and Development: Creating detailed test cases and scripts.
   - Ref: DSOVS-TEST-005
 - Test Execution: Running the test cases and documenting any defects.
   - Ref: DSOVS-TEST-005, DSOVS-REQ-004, DSOVS-REL-007
 - Test Closure: Summarizing testing activities and identifying areas for improvement.
+  - Ensuring that security testing is included in retrospectives and improved over time, both focusing on efficiency and quality.
 
-Security Test Management is crucial for delivering secure software. It helps in identifying security defects early, ensuring efficient resource utilization, and providing better visibility and control over the security testing process. Modern security test tools often include features for automation, tracking, and reporting, which streamline the entire process.
+Security Test Management is crucial for delivering secure software. 
+It helps in identifying security defects early, ensuring efficient resource utilization, and providing visibility and control over the security testing process. Modern security test tools often include features for automation, tracking, and reporting, which streamline the entire process.
 
 ## Level 0 - Security Test Management is perfomed informally
 
@@ -27,15 +33,15 @@ This level of maturity is defined as “ad hoc practices,” where the control i
 - Base practices of the process area are generally performed.
 - The performance of these base practices may not be rigorously planned and tracked.
 - Performance depends on individual knowledge and effort.
-- There are identifiable work products for the process.
+- There are identifiable improvments for the process.
 
 ## Level 1 - Security Test Management is planned and tracked
 
 Practices are “requirements-driven” where the intent of control is met in some circumstances, but not standardized across the entire team.
 This level of maturity is defined as “requirements-driven practices,” where the expectations for controls are known (e.g., statutory, regulatory or contractual compliance obligations) and practices are tailored to meet those specific requirements.
 - Performance of the base practices in the process area is planned and tracked.
-- Performance according to specified procedures is verified.
-- Work products conform to specified standards and requirements.
+- Performance according to specified procedures is partly verified.
+- There is lack of automation and tooling, that could improve quality, consistancy and/or efficiency.
 
 ## Level 2 - Security Test Management is well-defined
 
